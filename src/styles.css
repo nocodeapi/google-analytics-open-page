@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  font-family: "Muli", sans-serif !important;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 40px 10px;
+}
+
+.other-matrix {
+  padding: 40px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  font-size: 15px;
+}
+.other-matrix .list-item h3 {
+  padding: 15px 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.other-matrix .list-item .list {
+  padding: 3px;
+  display: grid;
+  grid-template-columns: 40px auto;
+}
+.other-matrix .list-item span {
+  margin-left: 10px;
+}
